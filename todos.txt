@@ -1,0 +1,7 @@
+pgsql TODOs
+
+1) include examples
+
+2) develop the support functions further
+
+3) test on more platforms
