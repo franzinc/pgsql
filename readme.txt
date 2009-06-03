@@ -5,15 +5,15 @@ Table of contents:
    1. Description
    2. Author
    3. Author Notes
-   3. Documentation
-   4. Platforms
-   5. Dependencies
-   6. Installation
-   7. Configuration
-   8. Licence
-   9. Notes
-  10. Examples
-  11. Open Source 
+   4. Documentation
+   5. Platforms
+   6. Dependencies
+   7. Installation
+   8. Configuration
+   9. Licence
+  10. Notes
+  11. Examples
+  12. Open Source 
 
 **********************************************************************
 
@@ -34,16 +34,16 @@ Table of contents:
        (pg:sql statement) function, and a (pg:with-database ...) macro
        to use with it.
 
-   3. Platforms:
+   4. Platforms:
 
        Those platforms that support acl and postgresql.  Last tested
        with acl 6.1 on RedHat 7.  See the notes (#9)
 
-   4. Dependencies:
+   5. Dependencies:
 
        Allegro Common Lisp and postgresql
 
-   5. Installation:
+   6. Installation:
 
        i.   Follow postgresql's installation instructions for your
             platform.
@@ -63,11 +63,11 @@ Table of contents:
               (excl:compile-system :pgsql)
               (excl:load-system :pgsql)
 
-   6. Configuration:
+   7. Configuration:
 
       See step "iv" of the installation process.
 
-   7. Usage Documentation:
+   8. Usage Documentation:
 
       Load the library.
 
@@ -75,7 +75,7 @@ Table of contents:
 
       TODO: Add more usage info.  See the notes below (#9)
 
-   8. License:
+   9. License:
 
       The pgsql source code is licensed under the terms of the Lisp
       Lesser GNU Public License, known as the LLGPL. The LLGPL
@@ -83,7 +83,7 @@ Table of contents:
       preamble takes precedence. pgsql is referenced in the preamble
       as the LIBRARY.
 
-   9. Notes
+  10. Notes
 
        Minimal, simplistic sql function mimics ODBC syntax.
 
@@ -101,11 +101,11 @@ Table of contents:
         2) develop the support functions further
         3) test on more platforms
 
-  10. Examples and Information.
+  11. Examples and Information.
 
       TODO, see the notes above (#9)
 
-  11. Open Source
+  12. Open Source
 
        This project is hosted on the http://opensource.franz.com site.
        There is an informal community support and development mailing
